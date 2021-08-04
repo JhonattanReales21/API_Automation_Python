@@ -7,7 +7,7 @@ from jsonpath import jsonpath
 class TestTypeParameter:
 
     def test_anime_type_parameter(self,BaseUrl):
-        path="anime?q=Hero&limit=30"
+        path="anime?q=Hero&limit=25"
         resp=get(BaseUrl+path)
         rJson=resp.json()
         assert_that(resp.status_code).is_equal_to(200)
