@@ -1,5 +1,7 @@
 #
-*.idea/
+.idea/
+Tests/__init__.py
+Tests/.pytest_cache
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
