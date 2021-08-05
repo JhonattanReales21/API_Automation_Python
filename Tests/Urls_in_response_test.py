@@ -8,6 +8,7 @@ from jsonpath import jsonpath
 # Verify the url pattern for the fields link and image-link
 # in every search result
 
+@allure.severity(allure.severity_level.MINOR)
 @pytest.mark.usefixtures("BaseUrl")
 class TestUrlFields:
 

@@ -8,9 +8,11 @@ import allure
 #Verify the 'type' path parameter that specify what kind of observation to search
 #Verify the specific fields for both types of results (anime & manga)
 
+@allure.severity(allure.severity_level.CRITICAL)
 @pytest.mark.usefixtures("BaseUrl")
 class TestTypePathParameter:
 
+    @allure.severity(allure.severity_level.BLOCKER)
     @allure.title("Anime responses with none Manga observations")
     @allure.description("The Anime responses must not have any Manga result. We can validate this"
                         " by comparing several Manga types with the 'type' field of each result for an Anime search ")
