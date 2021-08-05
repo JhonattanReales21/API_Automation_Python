@@ -13,6 +13,7 @@ def test_to_fail():
 def test_to_fail_2():
     assert False == True
 
+
 @allure.severity(allure.severity_level.MINOR)
 @allure.feature("Others")
 @pytest.mark.skip
@@ -24,3 +25,13 @@ def test_to_skip2():
 @pytest.mark.skip
 def test_to_skip3():
     return ""
+
+@allure.severity(allure.severity_level.MINOR)
+@allure.feature("Others")
+def test_to_pass_1():
+    assert True == True
+
+@allure.severity(allure.severity_level.TRIVIAL)
+@allure.feature("Others")
+def test_to_pass_2():
+    assert True == True

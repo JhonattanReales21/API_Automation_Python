@@ -1,0 +1,56 @@
+{
+  "uid" : "5ed05e92f98808fe",
+  "name" : "test_to_pass_1",
+  "fullName" : "other_test#test_to_pass_1",
+  "historyId" : "bb1c4ba0c0f1995f28b455afe5957deb",
+  "time" : {
+    "start" : 1628145836993,
+    "stop" : 1628145836993,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "feature",
+    "value" : "Others"
+  }, {
+    "name" : "suite",
+    "value" : "other_test"
+  }, {
+    "name" : "host",
+    "value" : "KoombeaUsersMBP.lan"
+  }, {
+    "name" : "thread",
+    "value" : "75478-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "other_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ed05e92f98808fe.json",
+  "parameterValues" : [ ]
+}

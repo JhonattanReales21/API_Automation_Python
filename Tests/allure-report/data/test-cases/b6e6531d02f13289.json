@@ -1,0 +1,99 @@
+{
+  "uid" : "b6e6531d02f13289",
+  "name" : "test_to_skip3",
+  "fullName" : "other_test#test_to_skip3",
+  "historyId" : "06743bfa88a49b7ed435f1e521973f35",
+  "time" : {
+    "start" : 1628145836990,
+    "stop" : 1628145836990,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('/Users/koombea/PycharmProjects/API_Automation_Python/Tests/other_test.py', 23, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "feature",
+    "value" : "Others"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "suite",
+    "value" : "other_test"
+  }, {
+    "name" : "host",
+    "value" : "KoombeaUsersMBP.lan"
+  }, {
+    "name" : "thread",
+    "value" : "75478-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "other_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 4,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "6fc34d24d6f351ac",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: unconditional skip",
+        "time" : {
+          "start" : 1628145735313,
+          "stop" : 1628145735313,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b58547ec1ff2189a",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: unconditional skip",
+        "time" : {
+          "start" : 1628145554319,
+          "stop" : 1628145554319,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "78e065a82e47f260",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: unconditional skip",
+        "time" : {
+          "start" : 1628145436234,
+          "stop" : 1628145436234,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip" ]
+  },
+  "source" : "b6e6531d02f13289.json",
+  "parameterValues" : [ ]
+}

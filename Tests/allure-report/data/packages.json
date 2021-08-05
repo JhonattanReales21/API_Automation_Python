@@ -1,0 +1,242 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Advanced_search_parameters_test",
+    "children" : [ {
+      "name" : "Verifying status filter",
+      "uid" : "af83d38f7138f3e0",
+      "parentUid" : "b4da4bf10f7991b563a0fe618cec82ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628145829124,
+        "stop" : 1628145829822,
+        "duration" : 698
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verifying rated filter",
+      "uid" : "ff8ca9aa53c8eee6",
+      "parentUid" : "b4da4bf10f7991b563a0fe618cec82ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628145829825,
+        "stop" : 1628145830487,
+        "duration" : 662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verifying order the results by score",
+      "uid" : "41b2d14c6fdb059",
+      "parentUid" : "b4da4bf10f7991b563a0fe618cec82ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628145830490,
+        "stop" : 1628145831071,
+        "duration" : 581
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verifying order the results by id",
+      "uid" : "f3bf6f3b2c0152dd",
+      "parentUid" : "b4da4bf10f7991b563a0fe618cec82ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628145831074,
+        "stop" : 1628145831686,
+        "duration" : 612
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verifying several filters at the same time",
+      "uid" : "d833c70cd0efd313",
+      "parentUid" : "b4da4bf10f7991b563a0fe618cec82ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628145831689,
+        "stop" : 1628145832259,
+        "duration" : 570
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b4da4bf10f7991b563a0fe618cec82ae"
+  }, {
+    "name" : "Type_path_parameter_test",
+    "children" : [ {
+      "name" : "Anime responses with none Manga observations",
+      "uid" : "8d1c9829c07acda7",
+      "parentUid" : "0cfeefd6c621bed8ca2d0e450ea51617",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628145832263,
+        "stop" : 1628145832844,
+        "duration" : 581
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Data type for specific fields in Anime responses",
+      "uid" : "1b1bd140a6071e33",
+      "parentUid" : "0cfeefd6c621bed8ca2d0e450ea51617",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628145832849,
+        "stop" : 1628145833935,
+        "duration" : 1086
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Manga responses with none Anime observations",
+      "uid" : "30f3a933b2d0037b",
+      "parentUid" : "0cfeefd6c621bed8ca2d0e450ea51617",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628145833942,
+        "stop" : 1628145834510,
+        "duration" : 568
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Data type for specific fields in Manga responses",
+      "uid" : "9d8c4e05e7c6411a",
+      "parentUid" : "0cfeefd6c621bed8ca2d0e450ea51617",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628145834513,
+        "stop" : 1628145835624,
+        "duration" : 1111
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0cfeefd6c621bed8ca2d0e450ea51617"
+  }, {
+    "name" : "Urls_in_response_test",
+    "children" : [ {
+      "name" : "Link and image-link for Anime responses",
+      "uid" : "eb0c374c05646d78",
+      "parentUid" : "1a4385a5704468e71fc9836e7660256a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628145835628,
+        "stop" : 1628145836281,
+        "duration" : 653
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Link and image-link for Anime responses",
+      "uid" : "35e013e3d850fea6",
+      "parentUid" : "1a4385a5704468e71fc9836e7660256a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628145836289,
+        "stop" : 1628145836863,
+        "duration" : 574
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1a4385a5704468e71fc9836e7660256a"
+  }, {
+    "name" : "other_test",
+    "children" : [ {
+      "name" : "test_to_fail",
+      "uid" : "2a43a3154bf8f57b",
+      "parentUid" : "9d7637560dbedd6dd2f85f9b237dc083",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628145836867,
+        "stop" : 1628145836868,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_to_fail_2",
+      "uid" : "d739fcad8f1093d0",
+      "parentUid" : "9d7637560dbedd6dd2f85f9b237dc083",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628145836981,
+        "stop" : 1628145836981,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_to_skip2",
+      "uid" : "9df9c04209e809d2",
+      "parentUid" : "9d7637560dbedd6dd2f85f9b237dc083",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1628145836987,
+        "stop" : 1628145836987,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_to_skip3",
+      "uid" : "b6e6531d02f13289",
+      "parentUid" : "9d7637560dbedd6dd2f85f9b237dc083",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1628145836990,
+        "stop" : 1628145836990,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_to_pass_1",
+      "uid" : "5ed05e92f98808fe",
+      "parentUid" : "9d7637560dbedd6dd2f85f9b237dc083",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628145836993,
+        "stop" : 1628145836993,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_to_pass_2",
+      "uid" : "1dbbbe1fe12b7742",
+      "parentUid" : "9d7637560dbedd6dd2f85f9b237dc083",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628145836995,
+        "stop" : 1628145836995,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9d7637560dbedd6dd2f85f9b237dc083"
+  } ]
+}

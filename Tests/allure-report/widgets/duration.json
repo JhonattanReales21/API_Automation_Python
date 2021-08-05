@@ -1,0 +1,171 @@
+[ {
+  "uid" : "5ed05e92f98808fe",
+  "name" : "test_to_pass_1",
+  "time" : {
+    "start" : 1628145836993,
+    "stop" : 1628145836993,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "ff8ca9aa53c8eee6",
+  "name" : "Verifying rated filter",
+  "time" : {
+    "start" : 1628145829825,
+    "stop" : 1628145830487,
+    "duration" : 662
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d739fcad8f1093d0",
+  "name" : "test_to_fail_2",
+  "time" : {
+    "start" : 1628145836981,
+    "stop" : 1628145836981,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "41b2d14c6fdb059",
+  "name" : "Verifying order the results by score",
+  "time" : {
+    "start" : 1628145830490,
+    "stop" : 1628145831071,
+    "duration" : 581
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d8c4e05e7c6411a",
+  "name" : "Data type for specific fields in Manga responses",
+  "time" : {
+    "start" : 1628145834513,
+    "stop" : 1628145835624,
+    "duration" : 1111
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b6e6531d02f13289",
+  "name" : "test_to_skip3",
+  "time" : {
+    "start" : 1628145836990,
+    "stop" : 1628145836990,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "trivial"
+}, {
+  "uid" : "8d1c9829c07acda7",
+  "name" : "Anime responses with none Manga observations",
+  "time" : {
+    "start" : 1628145832263,
+    "stop" : 1628145832844,
+    "duration" : 581
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9df9c04209e809d2",
+  "name" : "test_to_skip2",
+  "time" : {
+    "start" : 1628145836987,
+    "stop" : 1628145836987,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+}, {
+  "uid" : "30f3a933b2d0037b",
+  "name" : "Manga responses with none Anime observations",
+  "time" : {
+    "start" : 1628145833942,
+    "stop" : 1628145834510,
+    "duration" : 568
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d833c70cd0efd313",
+  "name" : "Verifying several filters at the same time",
+  "time" : {
+    "start" : 1628145831689,
+    "stop" : 1628145832259,
+    "duration" : 570
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "eb0c374c05646d78",
+  "name" : "Link and image-link for Anime responses",
+  "time" : {
+    "start" : 1628145835628,
+    "stop" : 1628145836281,
+    "duration" : 653
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "2a43a3154bf8f57b",
+  "name" : "test_to_fail",
+  "time" : {
+    "start" : 1628145836867,
+    "stop" : 1628145836868,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "1dbbbe1fe12b7742",
+  "name" : "test_to_pass_2",
+  "time" : {
+    "start" : 1628145836995,
+    "stop" : 1628145836995,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "35e013e3d850fea6",
+  "name" : "Link and image-link for Anime responses",
+  "time" : {
+    "start" : 1628145836289,
+    "stop" : 1628145836863,
+    "duration" : 574
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "f3bf6f3b2c0152dd",
+  "name" : "Verifying order the results by id",
+  "time" : {
+    "start" : 1628145831074,
+    "stop" : 1628145831686,
+    "duration" : 612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b1bd140a6071e33",
+  "name" : "Data type for specific fields in Anime responses",
+  "time" : {
+    "start" : 1628145832849,
+    "stop" : 1628145833935,
+    "duration" : 1086
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "af83d38f7138f3e0",
+  "name" : "Verifying status filter",
+  "time" : {
+    "start" : 1628145829124,
+    "stop" : 1628145829822,
+    "duration" : 698
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

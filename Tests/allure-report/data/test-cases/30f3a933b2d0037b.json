@@ -1,0 +1,133 @@
+{
+  "uid" : "30f3a933b2d0037b",
+  "name" : "Manga responses with none Anime observations",
+  "fullName" : "Type_path_parameter_test.TestTypePathParameter#test_manga_type_parameter",
+  "historyId" : "327093ece977ed22a209555470a80c4b",
+  "time" : {
+    "start" : 1628145833942,
+    "stop" : 1628145834510,
+    "duration" : 568
+  },
+  "description" : "The Manga responses should not have any Anime result. We can validate this by comparing several Anime types with the 'type' field of each result for an Manga search ",
+  "descriptionHtml" : "<p>The Manga responses should not have any Anime result. We can validate this by comparing several Anime types with the 'type' field of each result for an Manga search</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BaseUrl",
+    "time" : {
+      "start" : 1628145833942,
+      "stop" : 1628145833942,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "Manga search"
+  }, {
+    "name" : "story",
+    "value" : "As a customer i want to be able to search only Manga results"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('BaseUrl')"
+  }, {
+    "name" : "suite",
+    "value" : "Type_path_parameter_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTypePathParameter"
+  }, {
+    "name" : "host",
+    "value" : "KoombeaUsersMBP.lan"
+  }, {
+    "name" : "thread",
+    "value" : "75478-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Type_path_parameter_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "d7521df2b4b0d979",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628145732267,
+          "stop" : 1628145732842,
+          "duration" : 575
+        }
+      }, {
+        "uid" : "7d3817bff544e909",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628145551229,
+          "stop" : 1628145551919,
+          "duration" : 690
+        }
+      }, {
+        "uid" : "a6871a275ebfa212",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628145433296,
+          "stop" : 1628145433858,
+          "duration" : 562
+        }
+      }, {
+        "uid" : "29c4459aea5e7185",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628145337634,
+          "stop" : 1628145338203,
+          "duration" : 569
+        }
+      }, {
+        "uid" : "c5c7e14cb24eccaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628145210069,
+          "stop" : 1628145210639,
+          "duration" : 570
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('BaseUrl')" ]
+  },
+  "source" : "30f3a933b2d0037b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "97455a876cf907dadf2f229bf12839ab",
+    "name" : "other_test",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "2b865f11dc48e1eabf332c6b7ebc1660",
+    "name" : "Advanced_search_parameters_test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "a524179315f9319638d5407d68228d0e",
+    "name" : "Type_path_parameter_test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "2cf4b3e17408d0fd215aa0eca979e1cc",
+    "name" : "Urls_in_response_test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

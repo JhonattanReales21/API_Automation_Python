@@ -1,0 +1,125 @@
+{
+  "uid" : "d833c70cd0efd313",
+  "name" : "Verifying several filters at the same time",
+  "fullName" : "Advanced_search_parameters_test.TestAdvancedParameters#test_adv_parameters_at_the_same_time",
+  "historyId" : "29071aa69d036b6c6ed83fe95ef568e5",
+  "time" : {
+    "start" : 1628145831689,
+    "stop" : 1628145832259,
+    "duration" : 570
+  },
+  "description" : "If the user specify several filters, orders and sorts, the results should take in consideration all this ones. This is check by looking and verifying that each condition/parameter is accomplishing",
+  "descriptionHtml" : "<p>If the user specify several filters, orders and sorts, the results should take in consideration all this ones. This is check by looking and verifying that each condition/parameter is accomplishing</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BaseUrl",
+    "time" : {
+      "start" : 1628145831689,
+      "stop" : 1628145831689,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "As a costumer i want to filter and order the results by specific parameters"
+  }, {
+    "name" : "feature",
+    "value" : "Advanced search parameters"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('BaseUrl')"
+  }, {
+    "name" : "suite",
+    "value" : "Advanced_search_parameters_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdvancedParameters"
+  }, {
+    "name" : "host",
+    "value" : "KoombeaUsersMBP.lan"
+  }, {
+    "name" : "thread",
+    "value" : "75478-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Advanced_search_parameters_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "4edf8d847e75aea2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628145730026,
+          "stop" : 1628145730611,
+          "duration" : 585
+        }
+      }, {
+        "uid" : "92bb61f28b2376e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628145431090,
+          "stop" : 1628145431665,
+          "duration" : 575
+        }
+      }, {
+        "uid" : "3999e5ea79bf0068",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628145335370,
+          "stop" : 1628145335944,
+          "duration" : 574
+        }
+      }, {
+        "uid" : "fd9808d1c4ac27ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628145207798,
+          "stop" : 1628145208400,
+          "duration" : 602
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('BaseUrl')" ]
+  },
+  "source" : "d833c70cd0efd313.json",
+  "parameterValues" : [ ]
+}

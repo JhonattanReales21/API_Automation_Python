@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "8d2217e06f25eddd794f009109ff3695",
+    "name" : "Others",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "996bc9abfe9cdadf0a15d74e64c9476a",
+    "name" : "Anime search",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "47d00163b1c0f38ede1ad38c35e2fdd1",
+    "name" : "Manga search",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "482f8eac49d6130641f9832d101bc2d9",
+    "name" : "Advanced search parameters",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
