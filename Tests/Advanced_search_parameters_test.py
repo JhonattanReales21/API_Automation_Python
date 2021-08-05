@@ -1,3 +1,4 @@
+import allure
 from assertpy import *
 import pytest
 from requests import *
@@ -9,6 +10,7 @@ class TestAdvancedParameters:
     #Verify that the API allows to use several advanced search parameters at once
 
     # If the user specify a status, the results should be only animes of that specific rated
+    @allure.feature("search Engine")
     def test_status_parameter(self,BaseUrl):
         path = "anime?q=jujutsu&status=to_be_aired&limit=100"
         resp = get(BaseUrl + path)
@@ -20,6 +22,7 @@ class TestAdvancedParameters:
         assert_that(bool_airing).contains_only(True)
 
     # if the user specify a rated, the results should be only animes of that specific rated
+    @allure.feature("search Engine")
     def test_rated_parameter(self,BaseUrl):
         path = "anime?q=jujutsu&rated=r17&limit=100"
         resp = get(BaseUrl + path)
@@ -31,6 +34,7 @@ class TestAdvancedParameters:
         assert_that(bool_rated).contains_only(True)
 
     # The user should be able to filter the results according to a desired field
+    @allure.feature("search Engine")
     def test_orderBy_parameter(self,BaseUrl):
         path = "anime?q=jujutsu&order_by=score&limit=100"
         resp = get(BaseUrl + path)
@@ -43,6 +47,7 @@ class TestAdvancedParameters:
         #print(scores)
 
     # The user should be able to filter the results using multiple filters at the same time
+    @allure.feature("search Engine")
     def test_adv_parameters_at_the_same_time(self,BaseUrl):
         path = "anime?q=jujutsu&order_by=members&rated=pg13&status=complete&sort=asc&limit=100"
         resp = get(BaseUrl + path)

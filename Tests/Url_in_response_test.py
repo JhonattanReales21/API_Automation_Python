@@ -1,4 +1,5 @@
 import re
+import allure
 from assertpy import *
 import pytest
 from requests import *
@@ -10,6 +11,7 @@ class TestUrlFields:
     # This fields are ulr and image_url, which are important for any app
 
     # All the anime results must have valid links and valid image links with .jpg format
+    @allure.feature("Anime_search")
     def test_anime_Urls(self,BaseUrl):
         path = "anime?q=Sword&limit=100"
         resp = get(BaseUrl + path)
@@ -27,6 +29,7 @@ class TestUrlFields:
         assert_that(bool_image).contains_only(True)
 
     # All the manga results must have valid links and valid image links with .jpg format
+    @allure.feature("Manga_search")
     def test_manga_Urls(self,BaseUrl):
         path = "manga?q=Sword&limit=100"
         resp = get(BaseUrl + path)
