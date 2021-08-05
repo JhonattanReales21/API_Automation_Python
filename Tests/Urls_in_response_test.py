@@ -5,13 +5,17 @@ import pytest
 from requests import *
 from jsonpath import jsonpath
 
+# Verify the url pattern for the fields link and image-link
+# in every search result
+
 @pytest.mark.usefixtures("BaseUrl")
 class TestUrlFields:
-    # There are 2 important fields in each response that contains url info
-    # This fields are ulr and image_url, which are important for any app
 
-    # All the anime results must have valid links and valid image links with .jpg format
-    @allure.feature("Anime_search")
+    @allure.title("Link and image-link for Anime responses")
+    @allure.description("The Anime responses must have 2 fields with a url pattern, this fields are link and "
+                        "image-link. Moreover, the image-link must have a .jpg in the url")
+    @allure.feature("Anime search")
+    @allure.story("As a customer i want to be able to go to the Anime´s info website from the search result")
     def test_anime_Urls(self,BaseUrl):
         path = "anime?q=Sword&limit=100"
         resp = get(BaseUrl + path)
@@ -28,8 +32,11 @@ class TestUrlFields:
         assert_that(bool_imageUrl_anime).contains_only(True)
         assert_that(bool_image).contains_only(True)
 
-    # All the manga results must have valid links and valid image links with .jpg format
-    @allure.feature("Manga_search")
+    @allure.title("Link and image-link for Anime responses")
+    @allure.description("The Manga responses must have 2 fields with a url pattern, this fields are link and "
+                        "image-link. Moreover, the image-link must have a .jpg in the url")
+    @allure.feature("Manga search")
+    @allure.story("As a customer i want to be able to go to the Manga´s info website from the search result")
     def test_manga_Urls(self,BaseUrl):
         path = "manga?q=Sword&limit=100"
         resp = get(BaseUrl + path)

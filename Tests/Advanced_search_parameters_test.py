@@ -4,13 +4,17 @@ import pytest
 from requests import *
 from jsonpath import jsonpath
 
+# Verify the advanced search parameters
+# Verify that the API allows to use several advanced search parameters at once
+
 @pytest.mark.usefixtures("BaseUrl")
 class TestAdvancedParameters:
-    #Verify the advanced search parameters
-    #Verify that the API allows to use several advanced search parameters at once
 
-    # If the user specify a status, the results should be only animes of that specific rated
-    @allure.feature("search Engine")
+    @allure.title("Verifying status filter")
+    @allure.description("If the user specify a status, the response should have only results with that specific "
+                        "status. This is verified by looking each status in airing field for Anime searches")
+    @allure.feature("Advanced search parameters")
+    @allure.story("As a costumer i want to filter and order the results by specific parameters")
     def test_status_parameter(self,BaseUrl):
         path = "anime?q=jujutsu&status=to_be_aired&limit=100"
         resp = get(BaseUrl + path)
@@ -21,8 +25,11 @@ class TestAdvancedParameters:
         bool_airing=[False==air for air in jsonpath(resJson, "$.results.[:].airing")]
         assert_that(bool_airing).contains_only(True)
 
-    # if the user specify a rated, the results should be only animes of that specific rated
-    @allure.feature("search Engine")
+    @allure.title("Verifying rated filter")
+    @allure.description("If the user specify a rated, the response should have only results with that specific rated. "
+                        "This is verified by looking each rate in rated field for Anime searches")
+    @allure.feature("Advanced search parameters")
+    @allure.story("As a costumer i want to filter and order the results by specific parameters")
     def test_rated_parameter(self,BaseUrl):
         path = "anime?q=jujutsu&rated=r17&limit=100"
         resp = get(BaseUrl + path)
@@ -34,7 +41,11 @@ class TestAdvancedParameters:
         assert_that(bool_rated).contains_only(True)
 
     # The user should be able to filter the results according to a desired field
-    @allure.feature("search Engine")
+    @allure.title("Verifying order the results by score")
+    @allure.description("If the user specify the results to be order by the scores, the response should be order by "
+                        "this. This is check by looking each score and verifying that they respect the specified order")
+    @allure.feature("Advanced search parameters")
+    @allure.story("As a costumer i want to filter and order the results by specific parameters")
     def test_orderBy_parameter(self,BaseUrl):
         path = "anime?q=jujutsu&order_by=score&limit=100"
         resp = get(BaseUrl + path)
@@ -47,7 +58,11 @@ class TestAdvancedParameters:
         #print(scores)
 
     # The user should be able to filter the results using multiple filters at the same time
-    @allure.feature("search Engine")
+    @allure.title("Verifying several filters at the same time")
+    @allure.description("If the user specify several filters, orders and sorts, the results should take in consideration all this ones. "
+                        "This is check by looking and verifying that each condition/parameter is accomplishing")
+    @allure.feature("Advanced search parameters")
+    @allure.story("As a costumer i want to filter and order the results by specific parameters")
     def test_adv_parameters_at_the_same_time(self,BaseUrl):
         path = "anime?q=jujutsu&order_by=members&rated=pg13&status=complete&sort=asc&limit=100"
         resp = get(BaseUrl + path)

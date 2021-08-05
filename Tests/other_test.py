@@ -7,7 +7,7 @@ def test_to_fail():
     assert False == True
 
 @allure.feature("Others")
-def test_to_fail():
+def test_to_fail2():
     assert True == False
 
 @allure.feature("Others")
