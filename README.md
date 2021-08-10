@@ -11,7 +11,7 @@ In general, in this API you can find useful information about anime and manga, s
 For more information visit the [official site](https://jikan.moe/) and the [API documentation](https://jikan.docs.apiary.io/#). 
 
 ## Installation
-This section is focus on describe how to install the dependencies and resources to put this project to work! First of all, you need to clone this project on your own machine:  
+This section is focus on describe how to install the dependencies and resources to put this project to work! First of all, you need to clone this project on your own machine, so, check that you already have [git](https://git-scm.com/downloads) installed:  
 
 On your terminal/Command Prompt open a folder and clone the repository:
 ```
