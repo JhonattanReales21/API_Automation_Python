@@ -78,7 +78,7 @@ $ allure open {dir of the repository cloned}/Tests/allure-report
 ```
 
 # Test cases
-If you want more information about the test cases, open the Tests folder.
+If you want more information about the test cases, open the [Tests folder](https://github.com/JhonattanReales21/API_Automation_Python/tree/main/Tests#test-cases-developed).
 
 
 # Resources
