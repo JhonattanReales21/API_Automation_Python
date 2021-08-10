@@ -81,7 +81,11 @@ $ allure open {dir of the repository cloned}/Tests/allure-report
 If you want more information about the test cases, open the Tests folder.
 
 
-
+# Resources
+* https://docs.qameta.io/allure/#_get_started
+* https://github.com/allure-framework/allure-python
+* https://github.com/assertpy/assertpy
+* https://github.com/ghoshasish99/API-Testing-Pytest
 
 
 
